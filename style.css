@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+
+}
+
+
+.nav-a a{
+    color: #fff;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: "Denk One", sans-serif;
+}
+.nav-a{
+    display: flex;
+    gap: 10rem;
+}
+
+nav {
+    width: 100%;
+    height: 4rem;
+    /* background-color: #230a0de3; */
+    margin-bottom: 10px;
+    background-color: #230a0d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+
+nav ul li {
+    line-height: 4rem;
+
+}
+
+.img {
+    width: 100%;
+    height: 60vh;
+    border: 1px solid black;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-image: url("images-all/6159033302498001276.jpg");
+    background-size: cover;
+    background-position: -2px;
+    padding: 0 30px;
+}
+
+.img .inner2 h1,
+.inner2 p {
+    font-family: "Denk One", sans-serif;
+    color: aliceblue;
+
+}
+
+.inner2 h1 {
+    font-size: 80px;
+}
+
+.inner2 p {
+    position: relative;
+    top: -10px;
+    font-size: x-large;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    text-align: left;
+
+}
+.img-box{
+    width: 25rem;
+    height: 27rem;
+    /* border: 1px solid black; */
+    background-image: url("images-all/lisa1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 7rem;
+    box-shadow: -10px -10px 10px rgb(175, 173, 173);
+    border-radius: 20px 0 20px 0;
+    position: relative;
+    left: 50px;
+}
+.about-box{
+    width: 35rem;
+    min-height: 10rem;
+    border: 1px solid black;
+    margin-top: 7rem;
+    background-color: #230a0d8d;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    left: -20px;
+}
+.about-box p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-box h1{
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    /* gap: 20px; */
+}
+.inner-pro-cont h1{
+    font-family: "Denk One", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-bottom: 70px;
+}
+.projects{
+    width: 85%;
+    min-height: 25rem;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    padding: 20px; 
+}
+.black-jack{
+    width: 40%;
+    height: 500px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: none;
+    box-shadow: 0 0 20px rgb(194, 192, 192);
+    border-radius: 8px;
+    
+}
+.blackj-h-p-a h2 {
+    text-align: center;
+    padding: 10px;
+}
+.blackj-h-p-a a{
+    margin: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: larger;
+    text-align: center;
+    /* position: static; */
+}
+.blackj-h-p-a a:hover{
+    color: blue;
+}
+.blackj-h-p-a a:active{
+    color: rgb(157, 21, 199);
+}
+.blackj-h-p-a a:visited{
+    color: #053632;
+}
+
+.blackj-h-p-a p{
+    font-size: 18px;
+}
+.blackj-h-p-a{
+    padding: 15px;
+}
+.blackj-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-proj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+table{
+    margin-top: 5rem;
+    width: 80%;
+    border-collapse: collapse;
+    border-color: #230a0daa;
+    font-size: 25px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+tr:nth-child(odd){
+    background-color: #2d0f1368;
+}
+caption,.cap{
+    margin: 5rem 0 3rem 0;
+    font-size: 35px;
+    font-family: "Denk One", sans-serif;
+    text-align: center;
+}
+th,td{
+    padding: 10px;
+}
+th{
+    text-align: left;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.logos img:hover{
+    transform: scale(1.5);
+}
+footer{
+    margin-top: 90px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #230a0d;
+    color: #fff;
+    padding: 10px;
+    /* position: sticky;
+    bottom: 0; */
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    word-spacing: 10px;
+}
+.sticky{
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    background-color: #230a0d;
+}
